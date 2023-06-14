@@ -1,0 +1,124 @@
+body{
+    font-family: 'Outfit';
+    height: 100vh;
+    background-color: rgb(12, 24, 43);
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    background-color: rgb(20, 36, 61);
+    width: 350px;
+    height: 580px;
+    border-radius: 20px;
+}
+
+/*Card*/
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.imagem-principal{
+    display: flex;
+    height:309px ;
+    margin-bottom: 21px;
+    border-radius: 17px;
+   
+}
+
+.view{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 17px;
+    background-color:rgba(0, 255, 246, .5) ;
+    width: 310px;
+    height: 310px;
+    opacity: 0.0;
+    z-index: 2;
+}
+
+.imagem-principal .nft{
+    position:absolute;
+    width: 310px;
+    border-radius: 15px;
+}
+
+.imagem-principal .nft:hover{
+    opacity: 0.5;
+}
+
+.imagem-principal .view:hover{
+    opacity: 1;
+}
+
+/*Texto*/
+
+
+.texto-principal p{
+    color:hsl(215, 25%, 70%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*Informações*/
+
+.informacoes{
+    padding-bottom: 20px;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+.etherium{
+    display: flex;
+    align-items: center;
+    color: hsl(178, 100%, 50%);
+}
+.clock{
+    display: flex;
+    align-items: center;
+    color: hsl(215, 51%, 70%);
+}
+.lista-informacoes{
+    display: flex;
+    justify-content:space-between;
+}
+li p,
+li span{
+ font-size: 16px;  
+}
+
+/*Criador*/
+
+.criador{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    color: hsl(215, 25%, 70%) ;
+    
+}
+
+.criador p,
+.criador a{
+ font-size: 14px;
+}
+
+.avatar{
+    width: 32px;
+    border-radius: 32px;
+    border: 1px solid white;
+    margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: hsl(178, 100%, 50%);
+}
